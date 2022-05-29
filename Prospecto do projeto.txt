@@ -1,0 +1,47 @@
+Anotações EAD
+
+EAD - Versão 1.0 - website que ajude a dimensionar a quantidade de placas solares necessárias para gerar uma potência X baseada na conta de luz de um morador de Recife.
+
+○ O usuário alimenta o sistema com alguns dados necessários
+○ Os outros dados já são nativos do site
+○ Um banco de dados simples para inserir outras placas solares
+○ O site gera um relatório com as informações desejadas (tipo de placa, tempo de retorno, custo do projeto, próximos passos etc)
+
+
+Etapas:
+
+- Produzir uma página web onde o usuário vai inserir:
+○ Consumo médio mensal
+○ Cidade onde mora
+○ Qual placa quer instalar
+○ Tipo de fornecimento (monofásico, bifásico ou trifásico)
+○ Tarifa da conta de energia
+
+- O site vai gerar um relatório com:
+○ Preço das placas
+○ Preço do inversor
+○ Preço dos demais componentes
+○ Preço da mão de obra
+○ Preço total
+○ Rendimento anual
+○ Tempo de retorno do investimento
+
+- Produzir página de admin contendo:
+○ Formulário para alterar, inserir ou apagar cidades;
+○ Formulário para alterar, inserir ou apagar dados das cidades;
+○ Formulário para alterar, inserir ou apagar placas;
+○ Formulário para alterar, inserir ou apagar inversores;
+
+Etapas:
+- Pesquisar dados das cidades;
+- Pesquisar dados das placas (2 tipos); *Preço, potência, dados da placa etc.*
+- Pesquisar dados dos inversores (2 tipos)
+- Produzir páginas em HTML-PHP;
+- Pesquisar sobre como gerar relatório em PDF ou outra página;
+- Pesquisar sobre MySQL (inserir dados necessários);
+- Conectar página com o banco de dados (para inserir dados, apagar etc.);
+- Fazer testes; 
+- Gravar vídeo;
+- Preencher atividade 04;
+- Enviar atividade 04;
+
